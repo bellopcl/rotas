@@ -1,0 +1,154 @@
+﻿@model IEnumerable<ProjetoRotas.Models.USUT085CLIVLT>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style>
+        Button1{
+            font-weight: bold;
+            padding: 10px;
+            float: left;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px;
+            border-bottom-style: solid;
+            border-top-color: #FFFFFF;
+            border-right-color: #FFFFFF;
+            border-bottom-color: #FFFFFF;
+            border-left-color: #FFFFFF;
+            color: #FFFFFF;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAq_Th2DOYfGetW9V1uVHHjrBikRAD99rg&sensor=false&alternatives=true"></script>
+            <script language="javascript" type="text/javascript">
+    var exibirCaminhos;
+    var servicoDirecao = new google.maps.DirectionsService();
+
+    function IniciarMapa() {
+        var latlng = new google.maps.LatLng(-15.682543, -47.978874);
+        var opcoes =
+        {
+            zoom: 8,
+            center: "Cascavel, Paraná",
+            panControl: true,
+            draggable: true,
+            zoomControl: true,
+            scrollwheel: true,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var mapa = new google.maps.Map(document.getElementById("mapa"), opcoes);
+        exibirCaminhos = new google.maps.DirectionsRenderer({
+            draggable: true,
+            map: mapa
+        });
+
+        exibirCaminhos.addListener('directions_changed', function () {
+            computeTotalDistance(exibirCaminhos.getDirections());
+        });
+
+        exibirCaminhos.setMap(mapa);
+        exibirCaminhos.setPanel(document.getElementById('direcaopainel'));
+        var controle = document.getElementById('controle');
+        controle.style.display = 'block';
+
+        function computeTotalDistance(result) {
+            var total = 0;
+            var myroute = result.routes[0];
+            for (var i = 0; i < myroute.legs.length; i++) {
+                total += myroute.legs[i].distance.value;
+            }
+            total = total / 1000;
+            document.getElementById('total').innerHTML = total + ' km';
+        }
+    }
+    function calcularRota() {
+        //var start = document.getElementById('valorinicio').value;
+        //var end = document.getElementById('valorfinal').value;
+        $.getJSON("@Url.Action("BuscaCidade")", function (data) {
+            document.getElementById('endereco').innerHTML = "";
+            if (data.listaItens.length > 0) {
+                var waypoints = [];
+                for (var i = 0; i < data.listaItens.length; i++) {
+                    if (i >= 1) {
+                        var address = data.listaItens[i];
+                        waypoints.push({
+                            location: address,
+                            stopover: true
+                        });
+                    }
+
+                    document.getElementById('endereco').innerHTML += "<br>" + data.listaItens[i]+"<br>";
+
+                    var start = data.listaItens[0];
+                    var end = data.listaItens[i];
+                }
+                var start = "Curitiba, Paraná";
+                var end = "Cascavel, Paraná";
+                var request = {
+                    origin: start,
+                    destination: end,
+                    waypoints: waypoints,
+                    optimizeWaypoints: true,
+                    travelMode: google.maps.DirectionsTravelMode.DRIVING
+                };
+                servicoDirecao.route(request, function (response, status) {
+                    if (status == google.maps.DirectionsStatus.OK) {
+                        exibirCaminhos.setDirections(response);
+                    }
+                });
+            }
+        })
+    }
+    function Button1_onclick() {
+        calcularRota();
+    }
+            window.onload = IniciarMapa;
+            </script>
+            <table id="controle">
+                <tr>
+
+                    <td valign="top" style="height:100px; width:100px; border:initial; background-color:floralwhite">
+                        <div class="panel col-lg-12">
+                            <p> </p>
+                            <p> </p>
+                            <p style="font-size: 20px">Endereços de Entrega</p>
+                            <p> </p>
+                            <div id="endereco"></div>
+                            <p>_________________________________________________________________</p>
+
+                            <br>
+                            <input id="Button1" type="button" value="Obter Caminho" onclick="return Button1_onclick()" />
+                            <br>
+                            <br>
+                            <p style="background-color:chartreuse; font-size: 32px">Distancia Total: <span id="total"></span></p>
+                            <br>
+                            <br>
+                        </div>
+                    </td>
+
+                    <td valign="top" style="border:medium">
+                        <div id="mapa" style="height: 800px; width: 800px"></div>
+                    </td>
+
+                    <td valign="top" style=" background-color:floralwhite">
+                        <div id="direcaopainel" style="height: 800px;overflow: auto"></div>
+                    </td>
+
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>

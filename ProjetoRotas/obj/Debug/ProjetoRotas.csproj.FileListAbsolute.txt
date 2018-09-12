@@ -1,0 +1,350 @@
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\ProjetoRotas.dll.config
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\ProjetoRotas.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\ProjetoRotas.pdb
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\csc.exe
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\csc.exe.config
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\csc.rsp
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\csi.exe
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\csi.exe.config
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\csi.rsp
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.AppContext.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Console.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.Compression.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.Pipes.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Claims.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.ValueTuple.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.XPath.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\vbc.exe
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\vbc.exe.config
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\vbc.rsp
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\VBCSCompiler.exe
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\Microsoft.Win32.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\netstandard.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.AppContext.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Collections.Concurrent.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Collections.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Collections.NonGeneric.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Collections.Specialized.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Console.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Data.Common.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Contracts.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Debug.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Process.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.StackTrace.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Tools.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.TraceSource.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Tracing.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Drawing.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Dynamic.Runtime.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Globalization.Calendars.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Globalization.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Globalization.Extensions.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.Compression.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.Compression.ZipFile.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.IsolatedStorage.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.Pipes.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Linq.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Linq.Expressions.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Linq.Parallel.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Linq.Queryable.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.Http.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.NameResolution.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.NetworkInformation.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.Ping.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.Requests.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.Security.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.Sockets.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.WebHeaderCollection.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.WebSockets.Client.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Net.WebSockets.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.ObjectModel.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Reflection.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Reflection.Extensions.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Reflection.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Resources.Reader.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Resources.ResourceManager.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Resources.Writer.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Extensions.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Handles.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.InteropServices.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Numerics.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Json.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Claims.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Csp.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.Principal.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Security.SecureString.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Text.Encoding.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Text.Encoding.Extensions.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Text.RegularExpressions.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.Overlapped.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.Tasks.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.Thread.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.ThreadPool.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Threading.Timer.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.ValueTuple.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Xml.ReaderWriter.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Xml.XDocument.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Xml.XmlDocument.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Xml.XmlSerializer.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Xml.XPath.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Xml.XPath.XDocument.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Helpers.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Mvc.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Razor.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Deployment.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Razor.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Razor.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Deployment.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Razor.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Helpers.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\System.Web.Mvc.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.csprojAssemblyReference.cache
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.csproj.CoreCompileInputs.cache
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.csproj.CopyComplete
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.pdb
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\EntityFramework.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\EntityFramework.SqlServer.dll
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\EntityFramework.xml
+C:\Users\cleverson.bello\Documents\Visual Studio 2017\Projects\ProjetoRotas\ProjetoRotas\bin\EntityFramework.SqlServer.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\ProjetoRotas.dll.config
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\ProjetoRotas.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\ProjetoRotas.pdb
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\csc.exe
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\csc.exe.config
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\csc.rsp
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\csi.exe
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\csi.exe.config
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\csi.rsp
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.AppContext.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Collections.Immutable.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Console.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.Compression.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.FileSystem.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.IO.Pipes.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.AccessControl.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Claims.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.ValueTuple.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.XPath.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\vbc.exe
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\vbc.exe.config
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\vbc.rsp
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\VBCSCompiler.exe
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\roslyn\VBCSCompiler.exe.config
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\Microsoft.Win32.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\netstandard.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.AppContext.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Collections.Concurrent.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Collections.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Collections.NonGeneric.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Collections.Specialized.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.ComponentModel.TypeConverter.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Console.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Data.Common.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Contracts.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Debug.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Process.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.StackTrace.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Tools.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.TraceSource.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Diagnostics.Tracing.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Drawing.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Dynamic.Runtime.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Globalization.Calendars.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Globalization.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Globalization.Extensions.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.Compression.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.Compression.ZipFile.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.FileSystem.Watcher.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.IsolatedStorage.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.MemoryMappedFiles.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.Pipes.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Linq.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Linq.Expressions.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Linq.Parallel.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Linq.Queryable.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.Http.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.NameResolution.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.NetworkInformation.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.Ping.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.Requests.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.Security.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.Sockets.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.WebHeaderCollection.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.WebSockets.Client.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Net.WebSockets.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.ObjectModel.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Reflection.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Reflection.Extensions.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Reflection.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Resources.Reader.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Resources.ResourceManager.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Resources.Writer.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Extensions.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Handles.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.InteropServices.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Numerics.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Formatters.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Json.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Runtime.Serialization.Xml.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Claims.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Algorithms.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Csp.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Encoding.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.Primitives.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.Principal.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Security.SecureString.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Text.Encoding.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Text.Encoding.Extensions.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Text.RegularExpressions.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.Overlapped.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.Tasks.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.Tasks.Parallel.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.Thread.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.ThreadPool.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Threading.Timer.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.ValueTuple.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Xml.ReaderWriter.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Xml.XDocument.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Xml.XmlDocument.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Xml.XmlSerializer.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Xml.XPath.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Xml.XPath.XDocument.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\EntityFramework.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\EntityFramework.SqlServer.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\Microsoft.Web.Infrastructure.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Helpers.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Mvc.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Razor.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Deployment.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Razor.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\EntityFramework.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\EntityFramework.SqlServer.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Razor.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Deployment.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Webpages.Razor.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Helpers.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\System.Web.Mvc.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Razor.resources.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.csprojAssemblyReference.cache
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.csproj.CoreCompileInputs.cache
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.csproj.CopyComplete
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.dll
+C:\Projetos_Desenvolvimento\ProjetoRotas\ProjetoRotas\obj\Debug\ProjetoRotas.pdb
