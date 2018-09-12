@@ -10,12 +10,16 @@ namespace ProjetoRotas.Models
     public class USUT085CLIVLT_DAO
     {
 
-        public List<string> BuscarEndereco()
+        public List<EnderecoQuantidade> BuscarEndereco()
         {
             try
             {
                 string OracleStringConnection = "DATA SOURCE=ORA11GT; PASSWORD=nwms4651teste;USER ID=NWMS_PRODUCAO";
-                string sql = "SELECT  usu.usu_codcli, USU.USU_ENDENT, USU.USU_BAIENT, USU.USU_CIDENT, USU.USU_ESTENT FROM SAPIENS.USU_T085CLIVLT USU WHERE USU.USU_STSCLI = 0 and ROWNUM < 10";
+                string sql = @"SELECT DISTINCT(VLT.USU_CLIVLT) AS CLIENTE, USU.USU_ENDENT AS ENDERECO, USU.USU_BAIENT AS BAIRRO, USU.USU_CIDENT CIDADE, 
+                            USU.USU_ESTENT ESTADO, SUM(VLT.USU_CUBMAX) AS CUBAGEM, SUM(VLT.USU_PESBRU) AS PESO_BRUTO, SUM(VLT.USU_VLRBRU) AS VALOR_BRUTO 
+                            FROM SAPIENS.USU_T120PEDVLT VLT , SAPIENS.USU_T085CLIVLT USU
+                            WHERE  VLT.USU_DATVLT >= TO_DATE('2018/08/29', 'YYYY/MM/DD') AND VLT.USU_CLIVLT = USU.USU_CLIVLT AND USU.USU_BAIENT = 'CENTRO'
+                            AND VLT.USU_ROTVLT = 6103 GROUP BY VLT.USU_CLIVLT, USU.USU_ENDENT, USU.USU_BAIENT, USU.USU_CIDENT, USU.USU_ESTENT";
 
                 OracleConnection conn = new OracleConnection(OracleStringConnection);
                 OracleCommand cmd = new OracleCommand(sql, conn);
@@ -24,16 +28,24 @@ namespace ProjetoRotas.Models
 
                 OracleDataReader dr = cmd.ExecuteReader();
 
-                List<string> listaItens = new List<string>();
-                string itens = null;
-                
+                List<EnderecoQuantidade> ListaItens = new List<EnderecoQuantidade>();
+                EnderecoQuantidade itens = new EnderecoQuantidade();
+                                
                 while (dr.Read())
                 {
-                    itens = null;
-                    itens = dr["USU_ENDENT"].ToString().Trim() + "," + dr["USU_BAIENT"].ToString().Trim() + "," + dr["USU_CIDENT"].ToString().Trim() + "," + dr["USU_ESTENT"].ToString().Trim();
-                    listaItens.Add(itens);
+                    itens = new EnderecoQuantidade();
+                    itens.CLIENTE = dr["CLIENTE"].ToString();
+                    itens.ENDERECO = dr["ENDERECO"].ToString();
+                    itens.BAIRRO = dr["BAIRRO"].ToString();
+                    itens.CIDADE = dr["CIDADE"].ToString();
+                    itens.ESTADO = dr["ESTADO"].ToString();
+                    itens.CUBAGEM = Convert.ToDecimal(dr["CUBAGEM"]);
+                    itens.PESO_BRUTO = Convert.ToDecimal(dr["PESO_BRUTO"]);
+                    itens.VALOR_BRUTO = Convert.ToDecimal(dr["VALOR_BRUTO"]);
+                    itens.ENDERECOCOMPLETO = dr["ENDERECO"].ToString().Trim() + "," + dr["BAIRRO"].ToString().Trim() + "," + dr["CIDADE"].ToString().Trim() + "," + dr["ESTADO"].ToString().Trim();
+                    ListaItens.Add(itens);
                 }
-                return listaItens;
+                return ListaItens;
 
             }
             catch (Exception ex)

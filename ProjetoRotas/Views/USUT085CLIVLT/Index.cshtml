@@ -73,28 +73,38 @@
         }
     }
     function calcularRota() {
-        //var start = document.getElementById('valorinicio').value;
-        //var end = document.getElementById('valorfinal').value;
         $.getJSON("@Url.Action("BuscaCidade")", function (data) {
             document.getElementById('endereco').innerHTML = "";
             if (data.listaItens.length > 0) {
                 var waypoints = [];
+                var totais = 0;
+                var cubagem = 0;
+                var valorbruto = 0;
+                var pesototal;
                 for (var i = 0; i < data.listaItens.length; i++) {
                     if (i >= 1) {
-                        var address = data.listaItens[i];
+                        var address = data.listaItens[i].ENDERECOCOMPLETO;
                         waypoints.push({
                             location: address,
                             stopover: true
                         });
                     }
 
-                    document.getElementById('endereco').innerHTML += "<br>" + data.listaItens[i]+"<br>";
+                    document.getElementById('endereco').innerHTML += "<br>" + data.listaItens[i].ENDERECO + " - " + data.listaItens[i].BAIRRO + " - " + data.listaItens[i].CIDADE + " - " + data.listaItens[i].ESTADO + "<br>";
+                    document.getElementById('endereco').innerHTML += "Cubagem: " + data.listaItens[i].CUBAGEM + "; Peso Bruto: " + data.listaItens[i].PESO_BRUTO + "; Valor Bruto: " + data.listaItens[i].VALOR_BRUTO + ";" + "<br>"
+                    pesototal = data.listaItens[i].PESO_BRUTO;
+                    cubagem += data.listaItens[i].CUBAGEM;
+                    valorbruto += data.listaItens[i].VALOR_BRUTO;
+                    totais += pesototal;
 
                     var start = data.listaItens[0];
                     var end = data.listaItens[i];
                 }
                 var start = "Curitiba, Paraná";
                 var end = "Cascavel, Paraná";
+                document.getElementById('pesototal').innerHTML = totais;
+                document.getElementById('cubagemtotal').innerHTML = cubagem;
+                document.getElementById('valortotal').innerHTML = valorbruto;
                 var request = {
                     origin: start,
                     destination: end,
@@ -122,18 +132,22 @@
                         <div class="panel col-lg-12">
                             <p> </p>
                             <p> </p>
-                            <p style="font-size: 20px">Endereços de Entrega</p>
+                            <p style="font-size: 30px">Endereços de Entrega</p>
                             <p> </p>
-                            <div id="endereco"></div>
+                            <div style="color:dimgrey" id="endereco"></div>
                             <p>_________________________________________________________________</p>
-
-                            <br>
+                            <p style="background-color:lightgray; font-size: 12px">Cubagem Total: <span id="cubagemtotal"></span></p>
+                            <p style="background-color:lightgray; font-size: 12px">Peso Bruto Total: <span id="pesototal"></span></p>
+                            <p style="background-color:lightgray; font-size: 12px">Valor Bruto Total: <span id="valortotal"></span></p>
+                            <p>_________________________________________________________________</p>
+                            <br />
                             <input id="Button1" type="button" value="Obter Caminho" onclick="return Button1_onclick()" />
-                            <br>
-                            <br>
+                            <br />
+                            <br />
                             <p style="background-color:chartreuse; font-size: 32px">Distancia Total: <span id="total"></span></p>
-                            <br>
-                            <br>
+
+                            <br />
+                            <br />
                         </div>
                     </td>
 

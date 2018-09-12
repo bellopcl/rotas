@@ -21,7 +21,7 @@ namespace ProjetoRotas.Controllers
 
         public JsonResult BuscaCidade()
         {
-            List<string> listaItens = new List<string>();
+            List<EnderecoQuantidade> listaItens = new List<EnderecoQuantidade>();
             listaItens = repositorio.BuscarEndereco();
             return this.Json(new { listaItens }, JsonRequestBehavior.AllowGet);
 

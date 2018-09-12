@@ -129,6 +129,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\EnderecoQuantidade.cs" />
     <Compile Include="Models\USUT085CLIVLT.cs" />
     <Compile Include="Models\USUT085CLIVLT_DAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

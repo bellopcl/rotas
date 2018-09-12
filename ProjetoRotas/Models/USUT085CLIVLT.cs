@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace ProjetoRotas.Models
 {
@@ -22,6 +19,5 @@ namespace ProjetoRotas.Models
         public string USU_CEPENT { get; set; }
         public DateTime USU_DATGER { get; set; }
         public int USU_HORGER { get; set; }
-
     }
 }
