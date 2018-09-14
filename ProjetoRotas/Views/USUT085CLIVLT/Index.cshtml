@@ -9,34 +9,82 @@
 <head runat="server">
     <title></title>
     <style>
-        Button1{
-            font-weight: bold;
-            padding: 10px;
-            float: left;
-            border-top-width: 1px;
-            border-right-width: 1px;
-            border-bottom-width: 1px;
-            border-left-width: 1px;
-            border-bottom-style: solid;
-            border-top-color: #FFFFFF;
-            border-right-color: #FFFFFF;
-            border-bottom-color: #FFFFFF;
-            border-left-color: #FFFFFF;
-            color: #FFFFFF;
-            margin-left: 20px;
+        /* The container */
+        .container {
+            display: block;
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 12px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* Hide the browser's default checkbox */
+        .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+        }
+
+        /* On mouse-over, add a grey background color */
+        .container:hover input ~ .checkmark {
+            background-color: #ccc;
+        }
+
+        /* When the checkbox is checked, add a blue background */
+        .container input:checked ~ .checkmark {
+            background-color: #2196F3;
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .container input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .container .checkmark:after {
+            left: 9px;
+            top: 5px;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAq_Th2DOYfGetW9V1uVHHjrBikRAD99rg&sensor=false&alternatives=true"></script>
+            <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD_YRRvXyHR8HdcKVoMoPuVjPsa2MRPFvU&sensor=false&alternatives=true"></script>
             <script language="javascript" type="text/javascript">
     var exibirCaminhos;
     var servicoDirecao = new google.maps.DirectionsService();
-
+    
     function IniciarMapa() {
-        var latlng = new google.maps.LatLng(-15.682543, -47.978874);
         var opcoes =
         {
             zoom: 8,
@@ -71,9 +119,25 @@
             total = total / 1000;
             document.getElementById('total').innerHTML = total + ' km';
         }
+     }
+
+    function enviaComando() {
+        var array = new Array();
+        var contador = 0;
+        var chek = document.getElementsByName("check");
+        for (var i = 0; i < chek.length; i++) {
+            if (chek[i].checked == true) {
+                array[i] = chek[i].value;
+                contador = contador + 1;
+            }
+        }
+        return { retornoArray: array, Contador: contador };
+        
     }
+
     function calcularRota() {
         $.getJSON("@Url.Action("BuscaCidade")", function (data) {
+            var comando = enviaComando();
             document.getElementById('endereco').innerHTML = "";
             if (data.listaItens.length > 0) {
                 var waypoints = [];
@@ -81,27 +145,43 @@
                 var cubagem = 0;
                 var valorbruto = 0;
                 var pesototal;
+                var texto = "<table> <tr> <td>";
                 for (var i = 0; i < data.listaItens.length; i++) {
                     if (i >= 1) {
-                        var address = data.listaItens[i].ENDERECOCOMPLETO;
-                        waypoints.push({
-                            location: address,
-                            stopover: true
-                        });
+                        var variavel = comando.retornoArray.indexOf(data.listaItens[i].CLIENTE);
+                        if (variavel <= 0) {
+                            var address = data.listaItens[i].ENDERECOCOMPLETO;
+                            waypoints.push({
+                                location: address,
+                                stopover: true
+                            });
+                        }
                     }
+                    if (variavel <= 0) {
+                        texto += '<label class="container">'
+                        texto += '<p><input type="checkbox" name="check" value="' + data.listaItens[i].CLIENTE + '"/>  <span class="checkmark"></span>';
+                        texto += data.listaItens[i].ENDERECO + " - ";
+                        texto += data.listaItens[i].BAIRRO + " - ";
+                        texto += data.listaItens[i].CIDADE + " - ";
+                        texto += data.listaItens[i].ESTADO + "</p>";
 
-                    document.getElementById('endereco').innerHTML += "<br>" + data.listaItens[i].ENDERECO + " - " + data.listaItens[i].BAIRRO + " - " + data.listaItens[i].CIDADE + " - " + data.listaItens[i].ESTADO + "<br>";
-                    document.getElementById('endereco').innerHTML += "Cubagem: " + data.listaItens[i].CUBAGEM + "; Peso Bruto: " + data.listaItens[i].PESO_BRUTO + "; Valor Bruto: " + data.listaItens[i].VALOR_BRUTO + ";" + "<br>"
-                    pesototal = data.listaItens[i].PESO_BRUTO;
-                    cubagem += data.listaItens[i].CUBAGEM;
-                    valorbruto += data.listaItens[i].VALOR_BRUTO;
-                    totais += pesototal;
+                        texto += "<p> Cubagem: " + data.listaItens[i].CUBAGEM + "; ";
+                        texto += "Peso Bruto: " + data.listaItens[i].PESO_BRUTO + "; ";
+                        texto += "Valor Bruto: " + data.listaItens[i].VALOR_BRUTO + ";</p></label>"
+                    
+                        pesototal = data.listaItens[i].PESO_BRUTO;
+                        cubagem += data.listaItens[i].CUBAGEM;
+                        valorbruto += data.listaItens[i].VALOR_BRUTO;
+                        totais += pesototal;
 
-                    var start = data.listaItens[0];
-                    var end = data.listaItens[i];
+                        var start = data.listaItens[0];
+                        var end = data.listaItens[i];
+                    }
                 }
-                var start = "Curitiba, Paraná";
-                var end = "Cascavel, Paraná";
+                texto += "</td></tr></table>";
+                document.getElementById("endereco").innerHTML = texto;
+                var start = "Cascavel, PR";
+                var end = "Cascavel, PR";
                 document.getElementById('pesototal').innerHTML = totais;
                 document.getElementById('cubagemtotal').innerHTML = cubagem;
                 document.getElementById('valortotal').innerHTML = valorbruto;
@@ -117,51 +197,56 @@
                         exibirCaminhos.setDirections(response);
                     }
                 });
+
             }
         })
     }
     function Button1_onclick() {
+        enviaComando();
         calcularRota();
     }
             window.onload = IniciarMapa;
             </script>
             <table id="controle">
                 <tr>
-
                     <td valign="top" style="height:100px; width:100px; border:initial; background-color:floralwhite">
                         <div class="panel col-lg-12">
                             <p> </p>
                             <p> </p>
-                            <p style="font-size: 30px">Endereços de Entrega</p>
+                            <p style="font-size: 30px; color:darkolivegreen">Endereços de Entrega</p>
                             <p> </p>
-                            <div style="color:dimgrey" id="endereco"></div>
-                            <p>_________________________________________________________________</p>
-                            <p style="background-color:lightgray; font-size: 12px">Cubagem Total: <span id="cubagemtotal"></span></p>
-                            <p style="background-color:lightgray; font-size: 12px">Peso Bruto Total: <span id="pesototal"></span></p>
-                            <p style="background-color:lightgray; font-size: 12px">Valor Bruto Total: <span id="valortotal"></span></p>
-                            <p>_________________________________________________________________</p>
-                            <br />
-                            <input id="Button1" type="button" value="Obter Caminho" onclick="return Button1_onclick()" />
-                            <br />
-                            <br />
-                            <p style="background-color:chartreuse; font-size: 32px">Distancia Total: <span id="total"></span></p>
-
-                            <br />
-                            <br />
+                            <div style="color:dimgrey; " id="endereco"></div>
+                            <div id="dados">
+                                <p>_________________________________________________________________</p>
+                                <p style="background-color:lightgray; font-size: 12px">Cubagem Total: <span id="cubagemtotal"></span></p>
+                                <p style="background-color:lightgray; font-size: 12px">Peso Bruto Total: <span id="pesototal"></span></p>
+                                <p style="background-color:lightgray; font-size: 12px">Valor Bruto Total: <span id="valortotal"></span></p>
+                                <p>_________________________________________________________________</p>
+                                <br />
+                                <div>
+                                    <input id="Button1" type="button" value="Obter Caminho" onclick="return Button1_onclick()" />
+                                </div>
+                                <br />
+                                <br />
+                                <p style="background-color:chartreuse; font-size: 32px">Distancia Total: <span id="total"></span></p>
+                                <br />
+                                <br />
+                            </div>
                         </div>
                     </td>
 
                     <td valign="top" style="border:medium">
+                        <br>
                         <div id="mapa" style="height: 800px; width: 800px"></div>
                     </td>
 
                     <td valign="top" style=" background-color:floralwhite">
+                        <br>
+                        <p style="font-size: 30px; color:darkolivegreen">Percurso </p>
                         <div id="direcaopainel" style="height: 800px;overflow: auto"></div>
                     </td>
-
                 </tr>
             </table>
-            
         </div>
     </form>
 </body>
