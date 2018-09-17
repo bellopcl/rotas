@@ -1,10 +1,4 @@
-﻿@model IEnumerable<ProjetoRotas.Models.USUT085CLIVLT>
-
-@{
-    ViewBag.Title = "Index";
-}
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
@@ -23,12 +17,12 @@
             user-select: none;
         }
 
-        /* Hide the browser's default checkbox */
-        .container input {
-            position: absolute;
-            opacity: 0;
-            cursor: pointer;
-        }
+            /* Hide the browser's default checkbox */
+            .container input {
+                position: absolute;
+                opacity: 0;
+                cursor: pointer;
+            }
 
         /* Create a custom checkbox */
         .checkmark {
@@ -83,26 +77,80 @@
             <script language="javascript" type="text/javascript">
     var exibirCaminhos;
     var servicoDirecao = new google.maps.DirectionsService();
-    
+    var marker;
+    var center = new google.maps.LatLng(-24.909274, -53.525179);
     function IniciarMapa() {
         var opcoes =
         {
             zoom: 8,
+            center: center,
             panControl: true,
             draggable: true,
             zoomControl: true,
             scrollwheel: true,
+            clickableIcons: true,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         var mapa = new google.maps.Map(document.getElementById("mapa"), opcoes);
         exibirCaminhos = new google.maps.DirectionsRenderer({
             draggable: true,
+            clickableIcons: true,
             map: mapa
         });
 
         exibirCaminhos.addListener('directions_changed', function () {
             computeTotalDistance(exibirCaminhos.getDirections());
         });
+
+        google.maps.event.addListener(mapa, "click", function (event) {
+            var lat = event.latLng.lat().toFixed(6);
+            var lng = event.latLng.lng().toFixed(6);
+
+            createMarker(lat, lng);
+
+            getCoords(lat, lng);
+
+        });
+
+        google.maps.event.addListener(mapa, "dblclick", function (event) {
+
+
+        });
+
+        function createMarker(lat, lng) {
+
+            if (marker) {
+                // remover esse marcador do mapa
+                marker.setMap(null);
+                // remover qualquer valor da variável marker
+                marker = "";
+            }
+
+            marker = new google.maps.Marker({
+                position: new google.maps.LatLng(lat, lng),
+                draggable: true,
+                map: mapa
+            });
+
+            google.maps.event.addListener(marker, 'dragend', function () {
+                maker.position = maker.getPosition();
+
+                var lat = maker.position.lat().toFixed(6);
+                var lng = maker.position.lng().toFixed(6);
+
+                getCoords(lat, lng);
+            });
+        }
+
+        function getCoords(lat, lng) {
+            var coords_lat = document.getElementById("lat");
+
+            coords_lat.value = lat;
+
+            var coords_lng = document.getElementById("lng");
+
+            coords_lng.value = lng;
+        }
 
         exibirCaminhos.setMap(mapa);
         exibirCaminhos.setPanel(document.getElementById('direcaopainel'));
@@ -119,7 +167,9 @@
             document.getElementById('total').innerHTML = total + ' km';
         }
      }
-
+    function limpar() {
+        mapa.setMap(null);
+    }
     function enviaComando() {
         var array = new Array();
         var contador = 0;
@@ -131,7 +181,7 @@
             }
         }
         return { retornoArray: array, Contador: contador };
-        
+
     }
 
     function calcularRota() {
@@ -167,7 +217,7 @@
                         texto += "<p> Cubagem: " + data.listaItens[i].CUBAGEM + "; ";
                         texto += "Peso Bruto: " + data.listaItens[i].PESO_BRUTO + "; ";
                         texto += "Valor Bruto: " + data.listaItens[i].VALOR_BRUTO + ";</p></label>"
-                    
+
                         pesototal = data.listaItens[i].PESO_BRUTO;
                         cubagem += data.listaItens[i].CUBAGEM;
                         valorbruto += data.listaItens[i].VALOR_BRUTO;
@@ -210,8 +260,6 @@
                 <tr>
                     <td valign="top" style="height:100px; width:100px; border:initial; background-color:floralwhite">
                         <div class="panel col-lg-12">
-                            <p> </p>
-                            <p> </p>
                             <p style="font-size: 30px; color:darkolivegreen">Endereços de Entrega</p>
                             <p> </p>
                             <div style="color:dimgrey; " id="endereco"></div>
@@ -224,6 +272,7 @@
                                 <br />
                                 <div>
                                     <input id="Button1" type="button" value="Obter Caminho" onclick="return Button1_onclick()" />
+                                    <input id="Button1" type="button" value="Limpar" onclick="return limpar()" />
                                 </div>
                                 <br />
                                 <br />
@@ -235,12 +284,19 @@
                     </td>
 
                     <td valign="top" style="border:medium">
-                        <br>
                         <div id="mapa" style="height: 800px; width: 800px"></div>
                     </td>
 
                     <td valign="top" style=" background-color:floralwhite">
-                        <br>
+                        <br />
+                        <div class="coordenadas">
+                            <span>Coordenadas</span>
+                            <label for="lat">Lat:</label>
+                            <input type="text" name="lat:" id="lat" value="0" />
+                            <label for="lng">Lng:</label>
+                            <input type="text" name="lng:" id="lng" value="0" />
+
+                        </div>
                         <p style="font-size: 30px; color:darkolivegreen">Percurso </p>
                         <div id="direcaopainel" style="height: 800px;overflow: auto"></div>
                     </td>
